@@ -1,0 +1,27 @@
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav li {
+    display: inline;
+}
+
+header {
+    text-align: justify;
+}
+
+.apafia {
+    text-align: center;
+    color: azure;
+    font-size: 140px;
+    font-style: normal;
+    font-family: Stalemate, serif;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 160px;
+    background-image: url("Img/apafia.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: center;
+}
