@@ -1,27 +1,38 @@
-nav {
-    background-color: black;
-    color: white;
-}
-
-nav li {
-    display: inline;
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 header {
-    text-align: justify;
+  text-align: justify;
+}
+
+p,
+ul li {
+  font-size: 24px;
 }
 
 .apafia {
-    text-align: center;
-    color: azure;
-    font-size: 140px;
-    font-style: normal;
-    font-family: Stalemate, serif;
-    font-style: italic;
-    padding-top: 5px;
-    padding-bottom: 160px;
-    background-image: url("Img/apafia.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-y: center;
+  text-align: center;
+  color: azure;
+  font-size: 100px;
+  font-style: normal;
+  font-family: Stalemate, serif;
+  font-style: italic;
+  padding-top: 120px;
+  padding-bottom: 260px;
+  background-image: url("Img/apafia.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: center;
+}
+
+#pricebutton {
+  background-color: #e5e5e5;
+}
+
+#pricebutton:hover {
+  background-color: #bfbfbf;
+  color: white;
 }
