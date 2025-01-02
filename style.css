@@ -43,3 +43,11 @@ ul li {
   font-size: 18px;
   text-align: justify;
 }
+
+#contact{
+  padding: 40px;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+  background-image: url(Img/cbimage.gif);
+  color: white;
+}
