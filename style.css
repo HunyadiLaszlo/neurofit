@@ -30,11 +30,13 @@ ul li {
   margin-bottom: 50px;
 }
 
-#pricebutton {
+#pricebutton1,
+#pricebutton2 {
   background-color: #e5e5e5;
 }
 
-#pricebutton:hover {
+#pricebutton1:hover,
+#pricebutton2:hover {
   background-color: #bfbfbf;
   color: white;
 }
@@ -44,9 +46,9 @@ ul li {
   text-align: justify;
 }
 
-#contact{
+#contact {
   padding: 40px;
-  margin-top: 50px; 
+  margin-top: 50px;
   margin-bottom: 50px;
   background-image: url(Img/cbimage.gif);
   color: white;
