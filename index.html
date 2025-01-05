@@ -1,588 +1,464 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Neurofit Studio | Neurofeedback tréning | ADD / ADHD | Teljesítményfokozás
-    </title>
-    <link rel="shortcut icon" href="Img/Favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Stalemate&display=swap"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav
-      class="navbar navbar-expand-xl sticky-top bg-body-tertiary"
-      data-bs-theme="dark"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="Img/Neurofit logo_transparent_smalll.png"
-            alt="logo"
-            height="60"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item nav">
-              <a
-                class="nav-link active"
-                style="font-size: 20px"
-                aria-current="page"
-                href="#"
-                >Főoldal</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="font-size: 20px" href="#"
-                >Mi a NeuroFeedback?</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                style="font-size: 20px"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Kiemelt szolgáltatásaink
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" style="font-size: 20px" href="#"
-                    >Óvodás és iskolás korú gyermekek fejlesztése</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" style="font-size: 20px" href="#"
-                    >Sportolók teljesítményfokozása</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" style="font-size: 20px" href="#"
-                    >Stresszkezelés és teljesítményfokozás felelős beosztásban
-                    dolgozóknak</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="font-size: 20px" href="#"
-                >Mi történik a tréningen?</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="font-size: 20px" href="#">Áraink</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="font-size: 20px" href="#">Kapcsolat</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <header class="container" style="margin-top: 50px; margin-bottom: 50px">
-      <div>
-        <h1>Üdvözöljük a NEUROFEEDBACK világában!</h1>
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <img src="Img/lanyok.jpg" alt="lányok" class="img-fluid" />
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <p>
-              Cégünk egy korszakalkotó szolgáltatással, NeuroFeedback fejlesztő
-              tréningek tartásával foglalkozik.
-            </p>
-            <p>
-              Ez egy olyan fájdalom és gyógyszermentes, de mindezek mellett
-              rendkívül hatékony megoldás, ami segítséget és ezáltal sok esetben
-              élhetőbb mindennapokat jelenthet a hozzánk ellátogatóknak.
-            </p>
-          </div>
-        </div>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Neurofit Studio | Neurofeedback tréning | ADD / ADHD | Teljesítményfokozás
+  </title>
+  <link rel="shortcut icon" href="Img/Favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Stalemate&display=swap" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <main class="container">
-      <!-- .row>.col*2 -->
-      <hr />
-      <article class="row" style="margin-top: 50px; margin-bottom: 50px">
-        <div class="col-lg-6 col-md-12 order-lg-1">
-          <img
-            src="Img/kezek.jpg"
-            class="mx-auto d-block"
-            alt="Kezek"
-            width="60%"
-          />
-        </div>
-        <div class="col-lg-6 col-md-12 order-lg-0">
-          <ul>
-            <li>
-              6 év feletti gyermekek fejlesztése a következő esetekben:
-              <ul>
-                <li>Hiperaktivitás és/vagy Figyelemzavar ( ADD / ADHD )</li>
-                <li>Tanulási nehézségek</li>
-                <li>Enyhe Autizmus, Asperger szindróma</li>
-                <li>Diszlexia, Diszkalkulia, Diszgráfia, Diszpraxia</li>
-                <li>Depresszió, Szorongás, Stressz, Tik</li>
-                <li>Poszttraumás stressz</li>
-                <li>Migrén</li>
-                <li>Agresszió, Dühkitörések, Impulzuskontroll hiánya</li>
-                <li>Egyensúlyzavar</li>
-                <li>Nyak- és Hátfájás (Fibromialgia)</li>
-                <li>Vizsgára, felvételire, versenyekre való felkészülés</li>
-                <li>Koncentráció, memória fejlesztés</li>
-              </ul>
-            </li>
-            <br />
-            <li>Stresszkezelés és teljesítményfokozás sportolóknak</li>
-            <br />
-            <li>
-              Stresszkezelés és teljesítményfokozás felelős beosztásban
-              dolgozóknak
-            </li>
-          </ul>
-        </div>
-      </article>
-      <hr />
-      <div class="row" style="margin-top: 50px; margin-bottom: 50px">
-        <div class="col">
-          <img src="" alt="" />
-          <h2>1. SZAKÉRTELEM</h2>
-        </div>
-        <div class="col">
-          <img src="" alt="" />
-          <h2>2. MEGBÍZHATÓSÁG</h2>
-        </div>
-        <div class="col">
-          <img src="" alt="" />
-          <h2>3. KEDVEZŐ ÁR-ÉRTÉK ARÁNY</h2>
-        </div>
+<body>
+  <nav class="navbar navbar-expand-xl sticky-top bg-body-tertiary" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="Img/Neurofit logo_transparent_smalll.png" alt="logo" height="60" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item nav">
+            <a class="nav-link active" style="font-size: 20px" aria-current="page" href="#">Főoldal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 20px" href="#">Mi a NeuroFeedback?</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="font-size: 20px" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Kiemelt szolgáltatásaink
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" style="font-size: 20px" href="#">Óvodás és iskolás korú gyermekek
+                  fejlesztése</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" style="font-size: 20px" href="#">Sportolók teljesítményfokozása</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" style="font-size: 20px" href="#">Stresszkezelés és teljesítményfokozás felelős
+                  beosztásban
+                  dolgozóknak</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 20px" href="#">Mi történik a tréningen?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 20px" href="#">Áraink</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: 20px" href="#">Kapcsolat</a>
+          </li>
+        </ul>
       </div>
-      <hr />
-      <div class="row" style="margin-top: 50px; margin-bottom: 50px">
+    </div>
+  </nav>
+
+  <header class="container" style="margin-top: 50px; margin-bottom: 50px">
+    <div>
+      <h1>Üdvözöljük a NEUROFEEDBACK világában!</h1>
+      <div class="row">
         <div class="col-lg-6 col-md-12">
-          <img src="Img/anyafia.jpg" alt="anyafia" class="img-fluid" />
+          <img src="Img/lanyok.jpg" alt="lányok" class="img-fluid" />
         </div>
         <div class="col-lg-6 col-md-12">
-          <div
-            id="carousel"
-            class="carousel carousel-dark slide"
-            data-bs-ride="carousel"
-            data-bs-interval="5000"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide-to="3"
-                aria-label="Slide 4"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide-to="4"
-                aria-label="Slide 5"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide-to="5"
-                aria-label="Slide 6"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide-to="6"
-                aria-label="Slide 7"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide-to="7"
-                aria-label="Slide 8"
-              ></button>
-            </div>
-
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <p>
-                  <q>
-                    10 éves fiam a pervazív fejlődési zavar diagnózist kapta.
-                    Sokáig nyugodt volt a családi életünk, azonban a nyári
-                    hónapoktól kezdve egyre gyakoribbá váltak nála a hangos
-                    kiabálással járó dührohamok, amelyeket nem tudtunk kezelni.
-                    Szintén problémát jelentett, hogy az iskolában nem beszélt.
-                    20 alkalommal voltunk neurofeedback tréningen, és a helyzet
-                    nagyon sokat javult. Újra csend van: megszűntek a dührohamok
-                    és a hajnali ébredések. A gyerek beszélni kezdett az
-                    iskolában, először csak suttogva, majd rendes hangerővel, és
-                    most már énekelni is hajlandó. A mozgásórán a gyakorlatokat
-                    pontosan hajtja végre, és egyéb mozgásformákat is szívesen
-                    kipróbál, majd rendszeresen gyakorol: úszik, capoeirázik,
-                    karatézik és judózik. Örömmel megy iskolába, és most már
-                    nemcsak a nevelőkhöz, hanem néha már a társaihoz is szól.
-                  </q>
-                </p>
-                <p><cite>Márta, 10 éves kisfiú édesanyja</cite></p>
-              </div>
-              <div class="carousel-item">
-                <p>
-                  <q>
-                    Kudarctűrő képességének javítása és az iskolai problémák
-                    feldolgozása miatt kerestünk egy hatásos segítséget Petinek.
-                    Magas érzelmi intelligenciája van korához képest és saját
-                    magával szemben is nagy elvárásai vannak. Az iskolakezdéskor
-                    tapasztaltuk a körömrágást, tépkedést, a széken ülve
-                    folyamatos lábmozgást, tenyérizzadást. A neurofeedback
-                    tréningen történő filmnézés már az első alkalom után
-                    határtalan örömöt váltott ki belőle és az ötödik alkalomra
-                    már pozitív változásokat is tapasztaltunk. Megszűnt a
-                    lábmozgás a széken és hétről hétre csökkentek a pszichés
-                    negatív jelek. Peti már az óvodában is nagyon érdeklődött a
-                    számok iránt, de mára már a logikai gondolkodása is sokat
-                    javult. A 15. alkalom után az olvasás és az írás fő
-                    időtöltésévé vált, szenvedélye azóta is töretlen. A
-                    kudarcokat sokkal jobban viseli, a problémákat képes
-                    megoldani és beszélni róluk.
-                  </q>
-                </p>
-                <p><cite>Judit, 8 éves kisfiú édesanyja</cite></p>
-              </div>
-              <div class="carousel-item">
-                <p>
-                  <q>
-                    Nekem a Neurofit Stúdióban végzett tréningek a következőkben
-                    segítettek: Az új nézőpontok észrevételében, kialakításában
-                    és beépítésében. Rálátni a stresszt okozó folyamataimra és a
-                    legelején sikerül elcsípnem és leállítanom ezeket. Segített
-                    az élet napos oldalának a felfedezésében. Segített a
-                    holtpontokon való átjutásban. Segített a hitem
-                    megerősítésében. Segített olyan dolgok felfedezésében,
-                    amiről az gondoltam, hogy soha nem tudom megvalósítani vagy
-                    meglépni.
-                  </q>
-                </p>
-                <p><cite>Anna, 48 éves kétgyermekes anyuka</cite></p>
-              </div>
-              <div class="carousel-item">
-                <p>
-                  <q>
-                    Férjemtől való válásom miatt kisfiam szorongóvá, búskomorrá
-                    vált. Ez olyan mértéket öltött, hogy alvásproblémák
-                    jelentkeztek nála és az iskolai eredményei is romlottak.
-                    Sajnos végül eljutottunk a gyógyszeres kezelésig, mígnem
-                    rátaláltam erre a helyre. Már néhány alkalom után jelentős
-                    javulás mutatkozott Gergő állapotában. A tréningek végére
-                    szorongása, alvásproblémája megszűnt, iskolai jegyei
-                    javultak és a gyógyszerekről is fokozatosan le tudtunk
-                    állni.
-                  </q>
-                </p>
-                <p><cite>Zsuzsanna, 9 éves kisfiú édesanyja</cite></p>
-              </div>
-              <div class="carousel-item">
-                <p>
-                  <q>
-                    9 éves kisfiamnál pervazív fejlődési zavart és enyhe értelmi
-                    fogyatékosságot állapítottak meg, ezért olyan terápiákat
-                    keresünk, ami az agyi tevékenységét javítja. Azt
-                    tapasztaljuk, hogy a neurofeedback hatására Tomi sokkal
-                    aktívabb lett, memóriája, koncentrálóképessége javult.
-                    Sokkal többet beszél, kérdez. A játékok, a rajzfilmek most
-                    már hosszabb ideig lekötik, magyarázza is a történeteket. Az
-                    iskolában történt fontosabb dolgokat is elmondja. Könnyebben
-                    fogja fel, érti meg, amit neki mondanak.
-                  </q>
-                </p>
-                <p><cite>Zsófi, 9 éves kisfiú édesanyja</cite></p>
-              </div>
-              <div class="carousel-item">
-                <p>
-                  <q>
-                    Pannival koncentráció, figyelem, és memória fejlesztés
-                    céljából próbáltuk ki a neurofeedback tréninget, mivel az
-                    iskolában elég hullámzó volt a teljesítménye és nagyon
-                    szétszórt volt a figyelme. Nem sokat mesélt az iskolában
-                    történtekről, ha kérdeztük legtöbbször "nem tudommal
-                    válaszolt". A tréningnek köszönhetően jegyei javultak, a
-                    figyelme, koncentrációja sokkal összeszedettebbé vált.
-                    Kifejezőképességében, kommunikációjában is jelentős változás
-                    érzékelhető. Mára már sokat mesél az iskolai eseményekről,
-                    tanárairól, társiról. Az órai munkákra és házi feladatokra
-                    is fejből emlékszik. Minden szülőnek csak ajánlani tudom a
-                    stúdió felkeresését, amennyiben gyermekeiknél hasonló
-                    nehézségeket tapasztalnak.
-                  </q>
-                </p>
-                <p><cite>Bea, 10 éves kislány édesanyja</cite></p>
-              </div>
-              <div class="carousel-item">
-                <p>
-                  <q>
-                    Kislányommal az iskolakezdésnél támadtak nehézségek. A
-                    tanító néni jelezte, hogy gyakran elkalandozik a figyelme,
-                    nehezen tud koncentrálni, fáradékony, órán alig halad
-                    valamit. Itthon kínkeserves volt a leckeírás, nehezen tudtuk
-                    rávenni, hogy leüljön írni. Megijedtem. Az interneten
-                    keresgéltem valami hatékony módszert, amivel segíthetnénk
-                    neki. Így akadtam rá a Neurofit Stúdióra. Az első találkozás
-                    Laci bácsival nagyon pozitív volt. Szívesen vett részt a
-                    vizsgálaton, majd az azt követő tréningeken. A hatás már 5
-                    alkalom után megmutatkozott: azt vettük észre, hogy magától
-                    ül le leckét írni. A tanító néni is pozitív változásokról
-                    számolt be: már nem fekszik a padon, órán a többiekkel
-                    együtt halad, sokkal összeszedettebb.
-                  </q>
-                </p>
-                <p><cite>Brigitta, egy 7 éves kislány anyukája</cite></p>
-              </div>
-              <div class="carousel-item">
-                <p>
-                  <q>
-                    Szeretnénk megköszönni a lehetőséget hogy Andrissal önökhöz
-                    járhattunk! A szövegértése, ami nehézség volt számára, mára
-                    látványosan javult úgy hogy az irodalom és a nyelvtan jegyei
-                    4-esek, 5-ösök. A tanuláshoz is könnyebben nekiáll.
-                    Sikerélménye van Andrisnak is, nekünk is!
-                  </q>
-                </p>
-                <p><cite>Éva, 10 éves kisfiú édesanyja</cite></p>
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+          <p>
+            Cégünk egy korszakalkotó szolgáltatással, NeuroFeedback fejlesztő
+            tréningek tartásával foglalkozik.
+          </p>
+          <p>
+            Ez egy olyan fájdalom és gyógyszermentes, de mindezek mellett
+            rendkívül hatékony megoldás, ami segítséget és ezáltal sok esetben
+            élhetőbb mindennapokat jelenthet a hozzánk ellátogatóknak.
+          </p>
         </div>
       </div>
-      <hr />
-      <div class="apafia">Az életünk a mi kezünkben van...</div>
-      <hr />
-      <div style="margin-top: 50px; margin-bottom: 50px">
-        <h1
-          style="
+    </div>
+  </header>
+
+  <hr />
+
+  <main class="container">
+    <article class="row" style="margin-top: 50px; margin-bottom: 50px">
+      <div class="col-lg-6 col-md-12 order-lg-1">
+        <img src="Img/kezek.jpg" class="mx-auto d-block" alt="Kezek" width="60%" />
+      </div>
+      <div class="col-lg-6 col-md-12 order-lg-0">
+        <ul>
+          <li>
+            6 év feletti gyermekek fejlesztése a következő esetekben:
+            <ul>
+              <li>Hiperaktivitás és/vagy Figyelemzavar ( ADD / ADHD )</li>
+              <li>Tanulási nehézségek</li>
+              <li>Enyhe Autizmus, Asperger szindróma</li>
+              <li>Diszlexia, Diszkalkulia, Diszgráfia, Diszpraxia</li>
+              <li>Depresszió, Szorongás, Stressz, Tik</li>
+              <li>Poszttraumás stressz</li>
+              <li>Migrén</li>
+              <li>Agresszió, Dühkitörések, Impulzuskontroll hiánya</li>
+              <li>Egyensúlyzavar</li>
+              <li>Nyak- és Hátfájás (Fibromialgia)</li>
+              <li>Vizsgára, felvételire, versenyekre való felkészülés</li>
+              <li>Koncentráció, memória fejlesztés</li>
+            </ul>
+          </li>
+          <br />
+          <li>Stresszkezelés és teljesítményfokozás sportolóknak</li>
+          <br />
+          <li>
+            Stresszkezelés és teljesítményfokozás felelős beosztásban
+            dolgozóknak
+          </li>
+        </ul>
+      </div>
+    </article>
+    <hr />
+    <div class="row" style="margin-top: 50px; margin-bottom: 50px">
+      <div class="col">
+        <img src="" alt="" />
+        <h2>1. SZAKÉRTELEM</h2>
+      </div>
+      <div class="col">
+        <img src="" alt="" />
+        <h2>2. MEGBÍZHATÓSÁG</h2>
+      </div>
+      <div class="col">
+        <img src="" alt="" />
+        <h2>3. KEDVEZŐ ÁR-ÉRTÉK ARÁNY</h2>
+      </div>
+    </div>
+    <hr />
+    <div class="row" style="margin-top: 50px; margin-bottom: 50px">
+      <div class="col-lg-6 col-md-12">
+        <img src="Img/anyafia.jpg" alt="anyafia" class="img-fluid" />
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p>
+                <q>
+                  10 éves fiam a pervazív fejlődési zavar diagnózist kapta.
+                  Sokáig nyugodt volt a családi életünk, azonban a nyári
+                  hónapoktól kezdve egyre gyakoribbá váltak nála a hangos
+                  kiabálással járó dührohamok, amelyeket nem tudtunk kezelni.
+                  Szintén problémát jelentett, hogy az iskolában nem beszélt.
+                  20 alkalommal voltunk neurofeedback tréningen, és a helyzet
+                  nagyon sokat javult. Újra csend van: megszűntek a dührohamok
+                  és a hajnali ébredések. A gyerek beszélni kezdett az
+                  iskolában, először csak suttogva, majd rendes hangerővel, és
+                  most már énekelni is hajlandó. A mozgásórán a gyakorlatokat
+                  pontosan hajtja végre, és egyéb mozgásformákat is szívesen
+                  kipróbál, majd rendszeresen gyakorol: úszik, capoeirázik,
+                  karatézik és judózik. Örömmel megy iskolába, és most már
+                  nemcsak a nevelőkhöz, hanem néha már a társaihoz is szól.
+                </q>
+              </p>
+              <p><cite>Márta, 10 éves kisfiú édesanyja</cite></p>
+            </div>
+            <div class="carousel-item">
+              <p>
+                <q>
+                  Kudarctűrő képességének javítása és az iskolai problémák
+                  feldolgozása miatt kerestünk egy hatásos segítséget Petinek.
+                  Magas érzelmi intelligenciája van korához képest és saját
+                  magával szemben is nagy elvárásai vannak. Az iskolakezdéskor
+                  tapasztaltuk a körömrágást, tépkedést, a széken ülve
+                  folyamatos lábmozgást, tenyérizzadást. A neurofeedback
+                  tréningen történő filmnézés már az első alkalom után
+                  határtalan örömöt váltott ki belőle és az ötödik alkalomra
+                  már pozitív változásokat is tapasztaltunk. Megszűnt a
+                  lábmozgás a széken és hétről hétre csökkentek a pszichés
+                  negatív jelek. Peti már az óvodában is nagyon érdeklődött a
+                  számok iránt, de mára már a logikai gondolkodása is sokat
+                  javult. A 15. alkalom után az olvasás és az írás fő
+                  időtöltésévé vált, szenvedélye azóta is töretlen. A
+                  kudarcokat sokkal jobban viseli, a problémákat képes
+                  megoldani és beszélni róluk.
+                </q>
+              </p>
+              <p><cite>Judit, 8 éves kisfiú édesanyja</cite></p>
+            </div>
+            <div class="carousel-item">
+              <p>
+                <q>
+                  Nekem a Neurofit Stúdióban végzett tréningek a következőkben
+                  segítettek: Az új nézőpontok észrevételében, kialakításában
+                  és beépítésében. Rálátni a stresszt okozó folyamataimra és a
+                  legelején sikerül elcsípnem és leállítanom ezeket. Segített
+                  az élet napos oldalának a felfedezésében. Segített a
+                  holtpontokon való átjutásban. Segített a hitem
+                  megerősítésében. Segített olyan dolgok felfedezésében,
+                  amiről az gondoltam, hogy soha nem tudom megvalósítani vagy
+                  meglépni.
+                </q>
+              </p>
+              <p><cite>Anna, 48 éves kétgyermekes anyuka</cite></p>
+            </div>
+            <div class="carousel-item">
+              <p>
+                <q>
+                  Férjemtől való válásom miatt kisfiam szorongóvá, búskomorrá
+                  vált. Ez olyan mértéket öltött, hogy alvásproblémák
+                  jelentkeztek nála és az iskolai eredményei is romlottak.
+                  Sajnos végül eljutottunk a gyógyszeres kezelésig, mígnem
+                  rátaláltam erre a helyre. Már néhány alkalom után jelentős
+                  javulás mutatkozott Gergő állapotában. A tréningek végére
+                  szorongása, alvásproblémája megszűnt, iskolai jegyei
+                  javultak és a gyógyszerekről is fokozatosan le tudtunk
+                  állni.
+                </q>
+              </p>
+              <p><cite>Zsuzsanna, 9 éves kisfiú édesanyja</cite></p>
+            </div>
+            <div class="carousel-item">
+              <p>
+                <q>
+                  9 éves kisfiamnál pervazív fejlődési zavart és enyhe értelmi
+                  fogyatékosságot állapítottak meg, ezért olyan terápiákat
+                  keresünk, ami az agyi tevékenységét javítja. Azt
+                  tapasztaljuk, hogy a neurofeedback hatására Tomi sokkal
+                  aktívabb lett, memóriája, koncentrálóképessége javult.
+                  Sokkal többet beszél, kérdez. A játékok, a rajzfilmek most
+                  már hosszabb ideig lekötik, magyarázza is a történeteket. Az
+                  iskolában történt fontosabb dolgokat is elmondja. Könnyebben
+                  fogja fel, érti meg, amit neki mondanak.
+                </q>
+              </p>
+              <p><cite>Zsófi, 9 éves kisfiú édesanyja</cite></p>
+            </div>
+            <div class="carousel-item">
+              <p>
+                <q>
+                  Pannival koncentráció, figyelem, és memória fejlesztés
+                  céljából próbáltuk ki a neurofeedback tréninget, mivel az
+                  iskolában elég hullámzó volt a teljesítménye és nagyon
+                  szétszórt volt a figyelme. Nem sokat mesélt az iskolában
+                  történtekről, ha kérdeztük legtöbbször "nem tudommal
+                  válaszolt". A tréningnek köszönhetően jegyei javultak, a
+                  figyelme, koncentrációja sokkal összeszedettebbé vált.
+                  Kifejezőképességében, kommunikációjában is jelentős változás
+                  érzékelhető. Mára már sokat mesél az iskolai eseményekről,
+                  tanárairól, társiról. Az órai munkákra és házi feladatokra
+                  is fejből emlékszik. Minden szülőnek csak ajánlani tudom a
+                  stúdió felkeresését, amennyiben gyermekeiknél hasonló
+                  nehézségeket tapasztalnak.
+                </q>
+              </p>
+              <p><cite>Bea, 10 éves kislány édesanyja</cite></p>
+            </div>
+            <div class="carousel-item">
+              <p>
+                <q>
+                  Kislányommal az iskolakezdésnél támadtak nehézségek. A
+                  tanító néni jelezte, hogy gyakran elkalandozik a figyelme,
+                  nehezen tud koncentrálni, fáradékony, órán alig halad
+                  valamit. Itthon kínkeserves volt a leckeírás, nehezen tudtuk
+                  rávenni, hogy leüljön írni. Megijedtem. Az interneten
+                  keresgéltem valami hatékony módszert, amivel segíthetnénk
+                  neki. Így akadtam rá a Neurofit Stúdióra. Az első találkozás
+                  Laci bácsival nagyon pozitív volt. Szívesen vett részt a
+                  vizsgálaton, majd az azt követő tréningeken. A hatás már 5
+                  alkalom után megmutatkozott: azt vettük észre, hogy magától
+                  ül le leckét írni. A tanító néni is pozitív változásokról
+                  számolt be: már nem fekszik a padon, órán a többiekkel
+                  együtt halad, sokkal összeszedettebb.
+                </q>
+              </p>
+              <p><cite>Brigitta, egy 7 éves kislány anyukája</cite></p>
+            </div>
+            <div class="carousel-item">
+              <p>
+                <q>
+                  Szeretnénk megköszönni a lehetőséget hogy Andrissal önökhöz
+                  járhattunk! A szövegértése, ami nehézség volt számára, mára
+                  látványosan javult úgy hogy az irodalom és a nyelvtan jegyei
+                  4-esek, 5-ösök. A tanuláshoz is könnyebben nekiáll.
+                  Sikerélménye van Andrisnak is, nekünk is!
+                </q>
+              </p>
+              <p><cite>Éva, 10 éves kisfiú édesanyja</cite></p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="apafia">Az életünk a mi kezünkben van...</div>
+    <hr />
+    <div style="margin-top: 50px; margin-bottom: 50px">
+      <h1 style="
             border-bottom: 2px solid;
             border-image: url(Img/underline.jpg) 10%;
-          "
-        >
-          Áraink
-        </h1>
-        <p>
-          Az első, körülbelül 2,5 órás állapotfelmérést 29.000,-Ft-os áron
-          végezzük, amiből visszakap 10.000,-Ft-ot ha úgy dönt, hogy
-          megvásárolja valamelyik fejlesztő csomagunkat. A választott bérlettől
-          függően a további állapotfelmérés árának egy részét is elengedjük
-          Önnek!
-        </p>
-        <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
-          <div class="col">
-            <div class="card mb-4 rounded-2 shadow-sm">
-              <div class="card-header py-3">
-                <h4 class="my-0 fw-normal" style="color: #ef4c10">
-                  10 ALKALMAS CSOMAG
-                </h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">
-                  11.500 Ft<small class="text-body-secondary fw-light"
-                    >/alk</small
-                  >
-                </h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li style="font-weight: bold">A csomag tartalmaz:</li>
-                  <li>10 db tréninget,</li>
-                  <li>ami összesen 115.000 Ft</li>
-                  <li>és egy összegben fizetendő</li>
-                </ul>
-                <button id="pricebutton" type="button" class="w-100 btn btn-lg">
-                  Időpontfoglalás
-                </button>
-              </div>
+          ">
+        Áraink
+      </h1>
+      <p>
+        Az első, körülbelül 2,5 órás állapotfelmérést 29.000,-Ft-os áron
+        végezzük, amiből
+        <strong style="color: #ef4c10">visszakap 10.000,-Ft-ot</strong> ha úgy
+        dönt, hogy megvásárolja valamelyik fejlesztő csomagunkat. A választott
+        bérlettől függően a további állapotfelmérés árának egy részét is
+        elengedjük Önnek!
+      </p>
+      <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-2 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal" style="color: #ef4c10">
+                10 ALKALMAS CSOMAG
+              </h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                11.500 Ft<small class="text-body-secondary fw-light">/alk</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li style="font-weight: bold">A csomag tartalmaz:</li>
+                <li>10 db tréninget,</li>
+                <li>ami összesen 115.000 Ft</li>
+                <li>és egy összegben fizetendő</li>
+              </ul>
+              <button id="pricebutton" type="button" class="w-100 btn btn-lg">
+                Időpontfoglalás
+              </button>
             </div>
           </div>
-          <div class="col">
-            <div class="card mb-4 rounded-2 shadow-sm border-primary">
-              <div
-                class="card-header py-3 border-primary"
-                style="background-color: #ef4c10"
-              >
-                <h4 class="my-0 fw-normal" style="color: white">
-                  20 ALKALMAS CSOMAG
-                </h4>
-              </div>
-              <div class="card-body">
-                <h1 class="card-title pricing-card-title">
-                  10.500 Ft<small class="text-body-secondary fw-light"
-                    >/alk</small
-                  >
-                </h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li style="font-weight: bold">A csomag tartalmaz:</li>
-                  <li>20 db tréninget,</li>
-                  <li>ami összesen 210.000 Ft</li>
-                  <li>és egy összegben fizetendő</li>
-                </ul>
-                <button id="pricebutton" type="button" class="w-100 btn btn-lg">
-                  Időpontfoglalás
-                </button>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-2 shadow-sm border-primary">
+            <div class="card-header py-3 border-primary" style="background-color: #ef4c10">
+              <h4 class="my-0 fw-normal" style="color: white">
+                20 ALKALMAS CSOMAG
+              </h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                10.500 Ft<small class="text-body-secondary fw-light">/alk</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li style="font-weight: bold">A csomag tartalmaz:</li>
+                <li>20 db tréninget,</li>
+                <li>ami összesen 210.000 Ft</li>
+                <li>és egy összegben fizetendő</li>
+              </ul>
+              <button id="pricebutton" type="button" class="w-100 btn btn-lg">
+                Időpontfoglalás
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <hr />
-      <div id="contact" class="row">
-        <div class="col-lg-4">
-          <h3 style="margin-bottom: 20px">Elérhetőségeink</h3>
-          <table style="margin-bottom: 20px">
-            <tr>
-              <td class="fw-bold text-decoration-underline">Neurofit STUDIO</td>
-            </tr>
-            <tr>
-              <td>1075 Budapest, Király u. 1/e</td>
-            </tr>
-            <tr>
-              <td>5. emelet 2. (52-es kapucsengő)</td>
-            </tr>
-            <tr>
-              <td><br /></td>
-            </tr>
-            <tr>
-              <td class="fw-bold text-decoration-underline">
-                Neurofit STUDIO Kistarcsa
-              </td>
-            </tr>
-            <tr>
-              <td>2143 Kistarcsa, Árpád u.</td>
-            </tr>
-            <tr>
-              <td><br /></td>
-            </tr>
-            <tr>
-              <td>Telefon: +36 30 780 9402</td>
-            </tr>
-            <tr>
-              <td>Email: info@neurofit.hu</td>
-            </tr>
-          </table>
-          <hr />
-          <table>
-            <tr>
-              <th colspan="2">
-                Ügyfélfogadás csak előre egyeztetett időpontban! <br /><br />
-              </th>
-            </tr>
-            <tr>
-              <td rowspan="4" style="width: 50%">
-                <img
-                  src="Img/clock_640 red.png"
-                  style="width: 25%; margin-left: 90px"
-                  alt="clock_640"
-                />
-              </td>
-              <td style="width: 50%; text-align: center">Hétfő - Péntek:</td>
-            </tr>
-            <tr>
-              <td style="text-align: center">08:00-19:00</td>
-            </tr>
-            <tr>
-              <td style="text-align: center">Szombat - Vasárnap:</td>
-            </tr>
-            <tr>
-              <td style="text-align: center">09:00-16:00</td>
-            </tr>
-          </table>
-        </div>
-        <div class="col-lg-4 px-3">
-          <img
-            src="Img/map1.jpg"
-            style="padding-top: 10px; width: 100%"
-            alt="map1"
-          />
-          <img
-            src="Img/map2.jpg"
-            style="padding-top: 20px; width: 100%"
-            alt="map2"
-          />
-        </div>
-        <div class="col-lg-4">
-          <h3 style="text-align: center">Írjon nekünk</h3>
-        </div>
+    </div>
+    <hr />
+    <div id="contact" class="row">
+      <div class="col-lg-4">
+        <h3 style="margin-bottom: 20px">Elérhetőségeink</h3>
+        <table style="margin-bottom: 20px">
+          <tr>
+            <td class="fw-bold text-decoration-underline">Neurofit STUDIO</td>
+          </tr>
+          <tr>
+            <td>1075 Budapest, Király u. 1/e</td>
+          </tr>
+          <tr>
+            <td>5. emelet 2. (52-es kapucsengő)</td>
+          </tr>
+          <tr>
+            <td><br /></td>
+          </tr>
+          <tr>
+            <td class="fw-bold text-decoration-underline">
+              Neurofit STUDIO Kistarcsa
+            </td>
+          </tr>
+          <tr>
+            <td>2143 Kistarcsa, Árpád u.</td>
+          </tr>
+          <tr>
+            <td><br /></td>
+          </tr>
+          <tr>
+            <td>Telefon: +36 30 780 9402</td>
+          </tr>
+          <tr>
+            <td>Email: info@neurofit.hu</td>
+          </tr>
+        </table>
+        <hr />
+        <table>
+          <tr>
+            <th colspan="2">
+              Ügyfélfogadás csak előre egyeztetett időpontban! <br /><br />
+            </th>
+          </tr>
+          <tr>
+            <td rowspan="4" style="width: 50%">
+              <img src="Img/clock_640 red.png" style="width: 25%; margin-left: 90px" alt="clock_640" />
+            </td>
+            <td style="width: 50%; text-align: center">Hétfő - Péntek:</td>
+          </tr>
+          <tr>
+            <td style="text-align: center">08:00-19:00</td>
+          </tr>
+          <tr>
+            <td style="text-align: center">Szombat - Vasárnap:</td>
+          </tr>
+          <tr>
+            <td style="text-align: center">09:00-16:00</td>
+          </tr>
+        </table>
       </div>
-    </main>
-  </body>
+      <div class="col-lg-4 px-3">
+        <img src="Img/map1.jpg" style="padding-top: 10px; width: 100%" alt="map1" />
+        <img src="Img/map2.jpg" style="padding-top: 20px; width: 100%" alt="map2" />
+      </div>
+      <div class="col-lg-4">
+        <h3 style="text-align: center">Írjon nekünk</h3>
+      </div>
+    </div>
+  </main>
+</body>
+
 </html>
