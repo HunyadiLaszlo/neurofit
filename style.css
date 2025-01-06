@@ -37,7 +37,7 @@ ul li {
   background-image: url("Img/apafia.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position-y: center;
+  background-position-x: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -88,3 +88,4 @@ footer p {
   border-color: white;
   color: white;
 }
+
