@@ -16,6 +16,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!--<script src="https://smtpjs.com/v3/smtp.js"></script>-->
+    <script src="sendemail.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -201,6 +203,29 @@
                 </div>
                 <div class="col-lg-4">
                     <h3 style="text-align: center; color: #e0978f">Írjon nekünk</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="InputName"></label>
+                            <input type="text" class="form-control" id="InputName" placeholder="Név"
+                                required="required">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail"></label>
+                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                                placeholder="Email" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputSubject"></label>
+                            <input type="text" class="form-control" id="InputSubject" placeholder="Tárgy"
+                                required="required">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputMessage"></label>
+                            <textarea class="form-control" id="InputMessage" rows="6" placeholder="Üzenet"
+                                required="required"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success" style="margin-top: 22px">Küldés</button>
+                    </form>
                 </div>
             </div>
         </div>
